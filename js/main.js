@@ -29,7 +29,9 @@ function firstQuestion(){
         imageAlt: 'Custom image',
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
-        $('.content').show(200);
+        $('.content').show(200)
+        ;var audio = new Audio('sound/duck.mp3'
+    audio.play();
       })
 }
 
