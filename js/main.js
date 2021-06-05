@@ -30,7 +30,9 @@ function firstQuestion(){
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
         $('.content').show(200);
-      })
+    var audio = new Audio('sound/all.mp3');
+    audio.play();
+    })
 }
 
  // switch button position
